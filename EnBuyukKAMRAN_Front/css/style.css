@@ -836,7 +836,7 @@ body .acc {
 
 body .acc .stick {
   background-color: white;
-  padding: 0 50px;
+  padding: 0 35px;
   position: -webkit-sticky !important;
   position: sticky !important;
   top: 0;
@@ -1231,5 +1231,22 @@ main #accordion .container .col-9 .form-control {
 
 main #accordion .container .col-9 .input-group-text {
   margin: 10px;
+}
+
+#polo_images {
+  padding: 75px 0;
+}
+
+#polo_images p {
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+#polo_images .circleImg {
+  border-radius: 50%;
+}
+
+#polo_images .img400 {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

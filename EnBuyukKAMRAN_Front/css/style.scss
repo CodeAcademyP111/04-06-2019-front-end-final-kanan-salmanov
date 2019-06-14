@@ -783,496 +783,496 @@ body {
 }
 
 // accardion starts
-body{
+body {
     #headertop {
-    border-bottom: thin solid silver;
-    height: 41px;
-    padding: 0 20px;
+        border-bottom: thin solid silver;
+        height: 41px;
+        padding: 0 20px;
 
-    .top-menu {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        float: left;
+        .top-menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float: left;
 
 
-        li {
-            display: inline-block;
-            height: 40px;
-            line-height: 40px;
-
-            a {
-                display: block;
-                font-size: 12px;
-                font-weight: 500;
+            li {
+                display: inline-block;
                 height: 40px;
-                margin-right: 16px;
-                text-decoration: none;
-                background-color: transparent;
-                color: #565656;
+                line-height: 40px;
+
+                a {
+                    display: block;
+                    font-size: 12px;
+                    font-weight: 500;
+                    height: 40px;
+                    margin-right: 16px;
+                    text-decoration: none;
+                    background-color: transparent;
+                    color: #565656;
+                }
             }
         }
-    }
 
 
-    .social-icons ul {
-        float: right;
-        height: 100%;
-        overflow: hidden;
-        list-style: none;
+        .social-icons ul {
+            float: right;
+            height: 100%;
+            overflow: hidden;
+            list-style: none;
 
-        li {
-            display: inline-block;
-            height: 40px;
-            line-height: 40px;
-
-
-            a {
-                height: 32px;
-                width: 32px;
-                line-height: 32px;
-                font-size: 16px;
-                text-align: center;
-                margin: 0 4px 4px 0;
-                border-radius: 4px;
-                border: 0;
-                background: 0 0;
-                color: #333;
-                padding: 10px;
-
-            }
-
-            &.social-facebook:hover a {
-                background-color: #5d82d1;
-                color: #fff;
-
-            }
-
-            &.social-twitter:hover a {
-                background-color: #40bff5;
-                color: #fff;
-
-            }
+            li {
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
 
 
-            &.social-google:hover a {
-                background-color: #eb5e4c;
-                ;
-                color: #fff;
+                a {
+                    height: 32px;
+                    width: 32px;
+                    line-height: 32px;
+                    font-size: 16px;
+                    text-align: center;
+                    margin: 0 4px 4px 0;
+                    border-radius: 4px;
+                    border: 0;
+                    background: 0 0;
+                    color: #333;
+                    padding: 10px;
 
-            }
+                }
 
-            &.social-pinterest:hover a {
-                background-color: #e13138;
-                color: #fff;
+                &.social-facebook:hover a {
+                    background-color: #5d82d1;
+                    color: #fff;
 
-            }
+                }
 
-            &.social-vimeo:hover a {
-                background-color: #5d82d1;
-                color: #fff;
+                &.social-twitter:hover a {
+                    background-color: #40bff5;
+                    color: #fff;
 
-            }
+                }
 
-            &.social-linkedin:hover a {
-                background-color: #238cc8;
-                ;
-                color: #fff;
 
-            }
+                &.social-google:hover a {
+                    background-color: #eb5e4c;
+                    ;
+                    color: #fff;
 
-            &.social-dribbble:hover a {
-                background-color: #f7659c;
-                ;
-                color: #fff;
+                }
 
-            }
+                &.social-pinterest:hover a {
+                    background-color: #e13138;
+                    color: #fff;
 
-            &.social-youtube:hover a {
-                background-color: #ef4e41;
-                color: #fff;
+                }
 
-            }
+                &.social-vimeo:hover a {
+                    background-color: #5d82d1;
+                    color: #fff;
 
-            &.social-rss:hover a {
-                background-color: #faa33d;
-                color: #fff;
+                }
 
+                &.social-linkedin:hover a {
+                    background-color: #238cc8;
+                    ;
+                    color: #fff;
+
+                }
+
+                &.social-dribbble:hover a {
+                    background-color: #f7659c;
+                    ;
+                    color: #fff;
+
+                }
+
+                &.social-youtube:hover a {
+                    background-color: #ef4e41;
+                    color: #fff;
+
+                }
+
+                &.social-rss:hover a {
+                    background-color: #faa33d;
+                    color: #fff;
+
+                }
             }
         }
+
     }
 
-}
-
-.acc {
-    position: sticky !important;
-    top: 0;
-
-    .stick {
-        background-color: white;
-        padding: 0 50px;
-
+    .acc {
         position: sticky !important;
         top: 0;
 
-        .mainUl {
-            left: -710px !important;
-        }
+        .stick {
+            background-color: white;
+            padding: 0 35px;
 
-        a {
-            color: black !important;
+            position: sticky !important;
+            top: 0;
 
-            &:hover {
-                color: black;
-            }
-        }
-    }
-}
-
-main {
-    #accordion-title {
-        position: relative;
-        background: #f8f9fa;
-        height: 300px;
-
-        .title {
-            position: absolute;
-            left: 40%;
-            top: 35%;
-
-            h6 {
-                font-size: 13px;
-                color: #565656;
+            .mainUl {
+                left: -710px !important;
             }
 
             a {
-                color: #565656;
-                font-size: 12px;
+                color: black !important;
 
                 &:hover {
-                    text-decoration: none;
-                    color: #007bff;
+                    color: black;
                 }
-            }
-
-            span {
-                color: #565656;
-                font-size: 12px;
             }
         }
     }
 
-    #accordion {
+    main {
+        #accordion-title {
+            position: relative;
+            background: #f8f9fa;
+            height: 300px;
 
-        .container {
-            .row {
-                margin-top: 20px;
+            .title {
+                position: absolute;
+                left: 40%;
+                top: 35%;
 
-                .left-nav {
-                    label {
-                        font-weight: 700;
-                        font-size: 14px;
-                        text-transform: uppercase;
+                h6 {
+                    font-size: 13px;
+                    color: #565656;
+                }
+
+                a {
+                    color: #565656;
+                    font-size: 12px;
+
+                    &:hover {
+                        text-decoration: none;
+                        color: #007bff;
+                    }
+                }
+
+                span {
+                    color: #565656;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        #accordion {
+
+            .container {
+                .row {
+                    margin-top: 20px;
+
+                    .left-nav {
+                        label {
+                            font-weight: 700;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                        }
+
+                        ul {
+                            padding: 0px !important;
+
+                            li {
+                                list-style: none;
+
+                                a {
+                                    color: #565656;
+                                    font-size: 14px;
+
+                                    &:hover {
+                                        text-decoration: none;
+                                        color: #2250fc;
+                                    }
+                                }
+
+                            }
+                        }
                     }
 
-                    ul {
-                        padding: 0px !important;
+                    .accordions {
+                        margin-bottom: 70px;
 
-                        li {
-                            list-style: none;
+                        .content {
+                            display: none;
 
-                            a {
-                                color: #565656;
-                                font-size: 14px;
+                            p {
+                                font-size: 13.6px;
+                                font-weight: 400;
+                                color: #777;
+                                margin-left: 10px;
+                            }
+                        }
 
-                                &:hover {
-                                    text-decoration: none;
-                                    color: #2250fc;
+                        h6 {
+                            user-select: none;
+                        }
+
+                        hr {
+                            margin-top: 60px;
+                        }
+
+                        .default {
+                            h4 {
+                                font-size: $accor-h4-size;
+                                font-weight: $accor-h4-weight;
+                                color: $accor-h4-color;
+                            }
+
+                            h6 {
+                                margin: 10px;
+                                font-size: $accor-h6-size;
+                                color: $accor-h4-color;
+                                position: relative;
+                                cursor: pointer;
+
+                                span {
+                                    position: absolute;
+                                    right: 4px;
+                                    font-size: 14px;
+
                                 }
                             }
 
+
+                            .border {
+                                margin-top: 16px;
+                                border-radius: 4px;
+                            }
+
+
+                        }
+
+                        .shadow-acc {
+                            margin-top: 40px;
+
+                            h4 {
+                                font-size: $accor-h4-size;
+                                font-weight: $accor-h4-weight;
+                                color: $accor-h4-color;
+                            }
+
+                            h6 {
+                                margin: 10px;
+                                font-size: $accor-h6-size;
+                                color: $accor-h4-color;
+                                position: relative;
+                                cursor: pointer;
+
+                                span {
+                                    position: absolute;
+                                    right: 4px;
+                                    font-size: 14px;
+
+                                }
+                            }
+
+
+                            .border {
+                                margin-top: 16px;
+                                border-radius: 4px;
+                            }
+
+
+                        }
+
+                        .with-icon {
+                            margin-top: 40px;
+
+                            h4 {
+                                font-size: $accor-h4-size;
+                                font-weight: $accor-h4-weight;
+                                color: $accor-h4-color;
+                            }
+
+                            h6 {
+                                margin: 10px;
+                                font-size: $accor-h6-size;
+                                color: $accor-h4-color;
+                                position: relative;
+                                cursor: pointer;
+
+                                span {
+                                    position: absolute;
+                                    right: 4px;
+                                    font-size: 14px;
+
+                                }
+                            }
+
+                            .border {
+                                background: white;
+                                margin-top: 16px;
+                                border-radius: 4px;
+                            }
+
+
+                        }
+
+                        .simple {
+                            margin-top: 40px;
+
+                            h4 {
+                                font-size: $accor-h4-size;
+                                font-weight: $accor-h4-weight;
+                                color: $accor-h4-color;
+                            }
+
+                            h6 {
+                                margin: 10px;
+                                font-size: $accor-h6-size;
+                                color: $accor-h4-color;
+                                position: relative;
+                                cursor: pointer;
+
+                                span {
+                                    position: absolute;
+                                    right: 4px;
+                                    font-size: 14px;
+
+                                }
+                            }
+
+
+                            .border {
+                                margin-top: 16px;
+                                border-radius: 4px;
+                            }
+
+
+                        }
+
+                        .flat {
+                            margin-top: 40px;
+
+                            h4 {
+                                font-size: $accor-h4-size;
+                                font-weight: $accor-h4-weight;
+                                color: $accor-h4-color;
+                            }
+
+                            h6 {
+                                font-size: $accor-h6-size;
+                                margin-bottom: 20px;
+                                color: $accor-h4-color;
+                                position: relative;
+                                cursor: pointer;
+
+                                span {
+                                    position: absolute;
+                                    right: 4px;
+                                    font-size: 14px;
+
+                                }
+                            }
+
+
+                            .border {
+                                margin-top: 16px;
+                                border-radius: 4px;
+                            }
+
+
+                        }
+
+                        .dark {
+                            margin-top: 40px;
+
+                            h4 {
+                                font-size: $accor-h4-size;
+                                font-weight: $accor-h4-weight;
+                                color: $accor-h4-color;
+                            }
+
+                            h6 {
+                                margin: 10px;
+                                font-size: $accor-h6-size;
+                                color: $accor-h4-color;
+                                position: relative;
+                                cursor: pointer;
+                                color: #fff;
+
+                                span {
+                                    position: absolute;
+                                    right: 4px;
+                                    font-size: 14px;
+
+                                }
+                            }
+
+                            .content {
+
+
+                                p {
+
+                                    color: white;
+
+                                }
+                            }
+
+
+                            .border {
+                                background: #333;
+                                margin-top: 16px;
+                                border-radius: 4px;
+
+                            }
+
+
+                        }
+
+                        .with-theme {
+                            margin-top: 40px;
+
+                            h4 {
+                                font-size: $accor-h4-size;
+                                font-weight: $accor-h4-weight;
+                                color: $accor-h4-color;
+                            }
+
+                            h6 {
+                                margin: 10px;
+                                font-size: $accor-h6-size;
+                                color: $accor-h4-color;
+                                position: relative;
+                                cursor: pointer;
+                                color: #fff;
+
+                                span {
+                                    position: absolute;
+                                    right: 4px;
+                                    font-size: 14px;
+
+                                }
+                            }
+
+                            .content {
+                                p {
+                                    color: white;
+                                }
+                            }
+
+
+                            .border {
+                                background: #2250fc;
+                                margin-top: 16px;
+                                border-radius: 4px;
+                            }
+
+
                         }
                     }
                 }
 
-                .accordions {
-                    margin-bottom: 70px;
-
-                    .content {
-                        display: none;
-
-                        p {
-                            font-size: 13.6px;
-                            font-weight: 400;
-                            color: #777;
-                            margin-left: 10px;
-                        }
-                    }
-
-                    h6 {
-                        user-select: none;
-                    }
-
-                    hr {
-                        margin-top: 60px;
-                    }
-
-                    .default {
-                        h4 {
-                            font-size: $accor-h4-size;
-                            font-weight: $accor-h4-weight;
-                            color: $accor-h4-color;
-                        }
-
-                        h6 {
-                            margin: 10px;
-                            font-size: $accor-h6-size;
-                            color: $accor-h4-color;
-                            position: relative;
-                            cursor: pointer;
-
-                            span {
-                                position: absolute;
-                                right: 4px;
-                                font-size: 14px;
-
-                            }
-                        }
-
-
-                        .border {
-                            margin-top: 16px;
-                            border-radius: 4px;
-                        }
-
-
-                    }
-
-                    .shadow-acc {
-                        margin-top: 40px;
-
-                        h4 {
-                            font-size: $accor-h4-size;
-                            font-weight: $accor-h4-weight;
-                            color: $accor-h4-color;
-                        }
-
-                        h6 {
-                            margin: 10px;
-                            font-size: $accor-h6-size;
-                            color: $accor-h4-color;
-                            position: relative;
-                            cursor: pointer;
-
-                            span {
-                                position: absolute;
-                                right: 4px;
-                                font-size: 14px;
-
-                            }
-                        }
-
-
-                        .border {
-                            margin-top: 16px;
-                            border-radius: 4px;
-                        }
-
-
-                    }
-
-                    .with-icon {
-                        margin-top: 40px;
-
-                        h4 {
-                            font-size: $accor-h4-size;
-                            font-weight: $accor-h4-weight;
-                            color: $accor-h4-color;
-                        }
-
-                        h6 {
-                            margin: 10px;
-                            font-size: $accor-h6-size;
-                            color: $accor-h4-color;
-                            position: relative;
-                            cursor: pointer;
-
-                            span {
-                                position: absolute;
-                                right: 4px;
-                                font-size: 14px;
-
-                            }
-                        }
-
-                        .border {
-                            background: white;
-                            margin-top: 16px;
-                            border-radius: 4px;
-                        }
-
-
-                    }
-
-                    .simple {
-                        margin-top: 40px;
-
-                        h4 {
-                            font-size: $accor-h4-size;
-                            font-weight: $accor-h4-weight;
-                            color: $accor-h4-color;
-                        }
-
-                        h6 {
-                            margin: 10px;
-                            font-size: $accor-h6-size;
-                            color: $accor-h4-color;
-                            position: relative;
-                            cursor: pointer;
-
-                            span {
-                                position: absolute;
-                                right: 4px;
-                                font-size: 14px;
-
-                            }
-                        }
-
-
-                        .border {
-                            margin-top: 16px;
-                            border-radius: 4px;
-                        }
-
-
-                    }
-
-                    .flat {
-                        margin-top: 40px;
-
-                        h4 {
-                            font-size: $accor-h4-size;
-                            font-weight: $accor-h4-weight;
-                            color: $accor-h4-color;
-                        }
-
-                        h6 {
-                            font-size: $accor-h6-size;
-                            margin-bottom: 20px;
-                            color: $accor-h4-color;
-                            position: relative;
-                            cursor: pointer;
-
-                            span {
-                                position: absolute;
-                                right: 4px;
-                                font-size: 14px;
-
-                            }
-                        }
-
-
-                        .border {
-                            margin-top: 16px;
-                            border-radius: 4px;
-                        }
-
-
-                    }
-
-                    .dark {
-                        margin-top: 40px;
-
-                        h4 {
-                            font-size: $accor-h4-size;
-                            font-weight: $accor-h4-weight;
-                            color: $accor-h4-color;
-                        }
-
-                        h6 {
-                            margin: 10px;
-                            font-size: $accor-h6-size;
-                            color: $accor-h4-color;
-                            position: relative;
-                            cursor: pointer;
-                            color: #fff;
-
-                            span {
-                                position: absolute;
-                                right: 4px;
-                                font-size: 14px;
-
-                            }
-                        }
-
-                        .content {
-
-
-                            p {
-
-                                color: white;
-
-                            }
-                        }
-
-
-                        .border {
-                            background: #333;
-                            margin-top: 16px;
-                            border-radius: 4px;
-
-                        }
-
-
-                    }
-
-                    .with-theme {
-                        margin-top: 40px;
-
-                        h4 {
-                            font-size: $accor-h4-size;
-                            font-weight: $accor-h4-weight;
-                            color: $accor-h4-color;
-                        }
-
-                        h6 {
-                            margin: 10px;
-                            font-size: $accor-h6-size;
-                            color: $accor-h4-color;
-                            position: relative;
-                            cursor: pointer;
-                            color: #fff;
-
-                            span {
-                                position: absolute;
-                                right: 4px;
-                                font-size: 14px;
-
-                            }
-                        }
-
-                        .content {
-                            p {
-                                color: white;
-                            }
-                        }
-
-
-                        .border {
-                            background: #2250fc;
-                            margin-top: 16px;
-                            border-radius: 4px;
-                        }
-
-
-                    }
-                }
             }
 
         }
-
     }
-}
 
 }
 
@@ -1374,5 +1374,24 @@ main {
 
         }
 
+    }
+}
+
+//  Polo_images
+
+#polo_images {
+    padding: 75px 0;
+
+    p {
+        font-size: 12px;
+        padding: 5px 0;
+    }
+
+    .circleImg {
+        border-radius: 50%;
+    }
+
+    .img400 {
+        width: 100%;
     }
 }
