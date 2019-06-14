@@ -1282,10 +1282,16 @@ body {
 
 
 main {
+    #accordion .container .col-9 .btn {
+        height: 40px;
+        margin: 10px;
+    }
+
     #accordion-title {
         position: relative;
         background: #f8f9fa;
         height: 300px;
+
 
         .title {
             position: absolute;
@@ -1392,6 +1398,17 @@ main {
     }
 
     .img400 {
+        width: 100%;
+    }
+}
+
+// dateRangePicker
+.date {
+    hr {
+        margin: 50px 0;
+    }
+
+    .dateInput {
         width: 100%;
     }
 }

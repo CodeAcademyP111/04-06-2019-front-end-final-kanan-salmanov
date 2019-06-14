@@ -1152,6 +1152,11 @@ body main #accordion .container .row .accordions .with-theme .border {
   border-radius: 4px;
 }
 
+main #accordion .container .col-9 .btn {
+  height: 40px;
+  margin: 10px;
+}
+
 main #accordion-title {
   position: relative;
   background: #f8f9fa;
@@ -1247,6 +1252,14 @@ main #accordion .container .col-9 .input-group-text {
 }
 
 #polo_images .img400 {
+  width: 100%;
+}
+
+.date hr {
+  margin: 50px 0;
+}
+
+.date .dateInput {
   width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
